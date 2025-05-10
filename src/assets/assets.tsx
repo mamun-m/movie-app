@@ -1,6 +1,3 @@
-import mamun from "../assets/profile.jpg";
-import play from "../assets/bigPlay.png";
-
 export const footer_assests = [
   {
     head: "the Basices",
@@ -28,65 +25,5 @@ export const footer_assests = [
     titletwo: "API Terms of Us....",
     titlethree: "Privacy Policy",
     titlefour: "DMCA Policy"
-  }
-];
-
-export const assets = {
-  mamun,
-  play
-};
-
-export const assets__data = [
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "Havog",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "Thunderbots",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
-  },
-  {
-    "tread-name": "this last of us",
-    "tread-img": mamun
   }
 ];
