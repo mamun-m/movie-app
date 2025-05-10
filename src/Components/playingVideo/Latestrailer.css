@@ -1,0 +1,72 @@
+.latestrailer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 1rem 4rem;
+  background: linear-gradient(
+    90deg,
+    rgba(19, 61, 102, 1) 0%,
+    rgba(0, 9, 54, 1) 100%
+  );
+  color: white;
+  margin-top: 50px;
+}
+.latestrailer-left,
+.latest-trailer-section {
+  display: flex;
+  align-items: center;
+}
+.latestrailer-left {
+  gap: 5rem;
+}
+.upcoming-names-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.upcoming-container {
+  position: relative;
+}
+.play-icons img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.play-icons img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  padding: 20px;
+  position: relative;
+  color: white;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.close-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1000;
+  color: white;
+}

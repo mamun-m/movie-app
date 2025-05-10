@@ -1,0 +1,19 @@
+.popolar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.popular-content-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.popular-content-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-content-heading h3 {
+  font-size: 16px;
+}

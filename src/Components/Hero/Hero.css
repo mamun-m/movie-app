@@ -1,0 +1,52 @@
+.hero {
+  background-color: aliceblue;
+  height: 20vh;
+  position: relative;
+}
+.hero-right {
+  position: absolute;
+  bottom: -50px;
+  z-index: 333;
+  width: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid tomato;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 1rem;
+  background-color: tomato;
+  border-radius: 12px;
+}
+.hero-left {
+  padding: 30px 80px;
+}
+.hero-left h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.hero-left p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.hero-right input {
+  border: none;
+  outline: white;
+  color: rgb(71, 71, 71);
+  padding: 10px 10px;
+  width: 80%;
+  border-radius: 16px;
+  font-size: 1.1rem;
+}
+.hero-right input::placeholder {
+  font-size: 1.2rem;
+}
+.hero-right button {
+  border: none;
+  width: 18%;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+.hero-right button:hover {
+  background-color: rgb(255, 64, 30);
+  color: white;
+}

@@ -1,0 +1,33 @@
+.trending-right {
+  display: flex;
+  gap: 2rem;
+}
+.trending-right img {
+  width: 20rem;
+  object-fit: contain;
+}
+.trending-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.trending-desc {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: rgb(78, 77, 76);
+}
+/* scrollbar without button  */
+.trending-right {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  cursor: grab;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE */
+}
+.trending-right::-webkit-scrollbar {
+  display: none;
+}
+.dragging {
+  cursor: grabbing;
+}
