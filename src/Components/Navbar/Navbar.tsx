@@ -1,6 +1,6 @@
 import { BiNotification, BiSearch } from "react-icons/bi";
 import "./Navabar.css";
-import mamun from "../../assets/mamun.jpg";
+import photos from "../../assets/profile.png";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -17,7 +17,7 @@ const Navbar = () => {
         <i>
           <BiNotification />{" "}
         </i>
-        <img className="mamun-images" src={mamun} alt="" />
+        <img className="mamun-images" src={photos} alt="" />
         <i>
           <BiSearch />
         </i>
